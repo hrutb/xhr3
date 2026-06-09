@@ -1,0 +1,109 @@
+/* Global reset */
+body {
+  font-family: Arial, sans-serif;
+  background: #afd7ff;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.card-header,
+.card-footer {
+  background: #f1f1f1;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary {
+  border: 1px solid #007bff;
+  color: #007bff;
+  background: transparent;
+}
+
+.btn-outline-primary:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+
+.button:hover { 
+                  transform: scale(1.05);
+                  cursor: pointer;
+}
+
+.card-footer:hover .btn{ 
+                  transform: scale(1.05);
+                  cursor: pointer;
+                                   
+}
+
+
+.spinner{ 
+       background-color: rgba(255, 255, 255, 0.516);
+       position: fixed;
+       height: 100%;
+       width: 100%;
+       top: 0;
+       left: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+}
+.card{ 
+      flex: 1;
+      height: 100%;
+}
+
+/* Responsive tweaks */
+@media (max-width: 590px) {
+  .container, .container-fluid {
+    padding: 0 10px;
+  }
+
+  .card {
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    width: 100%; /* full-width button on small screens */
+  }
+}
