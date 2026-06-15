@@ -141,9 +141,7 @@ function onSubmit(eve){
 
 }
 
-function DisableDelete(){ 
-     
-}
+
 
 function onRemove(ele){ 
        let removeId= ele.closest('.col-md-4').id ;
