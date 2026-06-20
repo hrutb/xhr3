@@ -208,7 +208,7 @@ function onEdit(ele){
                    updatePost.classList.remove('d-none');
                   
                    spinner.classList.add("d-none")
-
+                    window.scrollTo({top:0,behavior:'smooth'}); 
               }else{
                    snackbar('Data patch failed...!' , "error");
                    spinner.classList.add("d-none")
@@ -252,7 +252,7 @@ function onUpdate(){
                       addPost.classList.remove('d-none');
                       updatePost.classList.add('d-none');     
                       spinner.classList.add('d-none') 
-
+                col.scrollIntoView({block:'center',behavior:'smooth'});
                snackbar('Data Updated successfully...!', 'success');    
             }else{ 
              spinner.classList.add('d-none') 
